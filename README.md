@@ -1,34 +1,14 @@
-# Screenshot Grabber
+# Screenshot Grabber + Saver in Fiftyone
 
-A Python script that takes a screenshot of the screen(s) every 5 seconds. 
+A Python script that takes a screenshot of the screen(s) every x seconds and save the images + annotations in fiftyone.
 
 ## Getting Started
-
-For this project, you will need Python installed on your system.
-
-### Installing
-
 ```
 pip install -r requirements.txt
 ```
 
-## Running the app
+## Running the app (e.g)
 
 ```
-python main.py
+python main.py --dataset esmart_gta --interval 5 
 ```
-
-## Common issues
-
-N/A
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## YouTube Video Tutorial
-
-
-![Image description](https://i3.ytimg.com/vi/Nomzl_x4IMw/maxresdefault.jpg)
-
-Link: https://youtu.be/Nomzl_x4IMw
